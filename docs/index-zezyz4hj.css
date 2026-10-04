@@ -1,24 +1,8 @@
-/* src/stylesheets/vars.css */
-:root {
-  --c-white: #fff;
-  --c-white-opacity: #fff6;
-  --c-yellow: #ffcf55;
-  --c-dark-yellow: #685a38;
-  --c-blue: #313c77;
-  --c-blue-containers: #404c8d;
-  --c-blue-buttons: #4f5ca1;
-  --sh-yellow-light: 0px 0px 16px #ffcf55, inset 0px 0px 4px #ffffff40;
-  --sh-yellow-dark: 0px 0px 5px #27316e80, inset 0px 0px 4px #483d1f;
-  --sh-blue-containers: 0px 3px 8px #27316e, inset 0px 4px 12px #4f5ca1;
-  --sh-blue-buttons: 0px 2px 4px #313c77, inset 0px 2px 4px #5f6cb6;
-  --sh-yellow-buttons: 0px 2px 4px #313c77, inset 0px 0px 4px #ffffff40;
-}
-
 /* src/stylesheets/reset.css */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
+  font-size: 100%;
+  font-weight: inherit;
   border: 0;
   margin: 0;
   padding: 0;
@@ -50,8 +34,21 @@ table {
   border-spacing: 0;
 }
 
-/* src/stylesheets/fonts.css */
-
+/* src/stylesheets/vars.css */
+:root {
+  --c-white: #fff;
+  --c-white-opacity: #fff6;
+  --c-yellow: #ffcf55;
+  --c-dark-yellow: #685a38;
+  --c-blue: #313c77;
+  --c-blue-containers: #404c8d;
+  --c-blue-buttons: #4f5ca1;
+  --sh-yellow-light: 0px 0px 16px #ffcf55, inset 0px 0px 4px #ffffff40;
+  --sh-yellow-dark: 0px 0px 5px #27316e80, inset 0px 0px 4px #483d1f;
+  --sh-blue-containers: 0px 3px 8px #27316e, inset 0px 4px 12px #4f5ca1;
+  --sh-blue-buttons: 0px 2px 4px #313c77, inset 0px 2px 4px #5f6cb6;
+  --sh-yellow-buttons: 0px 2px 4px #313c77, inset 0px 0px 4px #ffffff40;
+}
 
 /* src/stylesheets/layout.css */
 * {
@@ -64,6 +61,7 @@ body {
   color: var(--c-white);
   padding: 20px;
   font-family: Comfortaa, Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 
 .synth__container {

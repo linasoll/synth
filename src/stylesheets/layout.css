@@ -8,6 +8,7 @@ body {
     color: var(--c-white);
     padding: 20px;
     font-family: "Comfortaa", Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }
 
 .synth__container {
