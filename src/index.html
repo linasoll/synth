@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Synth</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script type="module" src="./index.js"></script>
+  </head>
+
+  <body>
+    <div class="synth__container">
+      <div class="container header__container">
+        <div class="lamps__container">
+          <div class="lamps__line">
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+          </div>
+          <div class="lamps__line">
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+          </div>
+          <div class="lamps__line">
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+            <div class="lamp"></div>
+          </div>
+        </div>
+        <div class="transport-buttons__container">
+          <button class="transport-button" id="play">
+            <svg width="32" height="36" viewBox="0 0 32 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="transport-button__icon" d="M30 14.5092C32.6667 16.0607 32.6667 19.9393 30 21.4908L6 35.454C3.33333 37.0054 -1.34596e-07 35.0661 0 31.9632L1.21137e-06 4.03683C1.34596e-06 0.933907 3.33333 -1.00542 6 0.546041L30 14.5092Z" fill="black"/>
+            </svg>
+          </button>
+          <button class="transport-button" id="pause">
+            <svg width="34" height="38" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect class="transport-button__icon"  width="11" height="38" rx="5.5" fill="black"/>
+            <rect class="transport-button__icon"  x="23" width="11" height="38" rx="5.5" fill="black"/>
+            </svg>
+          </button>
+          <button class="transport-button" id="stop">
+            <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect class="transport-button__icon" width="38" height="38" rx="5" fill="black"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="part-settings__wrapper">
+        <div class="container settings__container">
+          <h2>LEAD</h2>
+          <div class="setting__wrapper">
+            <h3>VOLUME</h3>
+            <div class="volume__wrapper">
+              <input class="slider" id="lead-volume" type="range" min="-60" max="12" step="1" value="-6">
+              <button class="mute__button" id="lead-mute">MUTE</button>
+            </div>
+          </div>
+
+          <div class="setting__wrapper">
+            <h3>OSCILLATOR TYPE</h3>
+            <div class="toggle-buttons-set" id="lead-toggle">
+              <div class="toggle toggle--active">SINE</div>
+              <div class="toggle">TRIANGLE</div>
+              <div class="toggle">SQUARE</div>
+              <div class="toggle">SAWTOOTH</div>
+            </div>
+          </div>
+
+          <div class="setting__wrapper">
+            <h3>ATTACK</h3>
+              <input class="slider slider__effects" id="lead-attack" type="range" min="0.01" max="2" step="0.01" value="0.05">
+          </div>
+
+          <div class="setting__wrapper">
+            <h3>RELEASE</h3>
+              <input class="slider slider__effects" id="lead-release" type="range" min="0.1" max="5" step="0.1" value="1.5">
+          </div>
+
+          <div class="setting__wrapper">
+            <h3>BRIGHTNESS</h3>
+              <input class="slider slider__effects" id="lead-brightness" type="range" min="200" max="12000" step="100" value="8000">
+          </div>
+
+          <div class="setting__wrapper">
+            <h3>REVERB</h3>
+              <input class="slider slider__effects" id="lead-reverb" type="range" min="0" max="1" step="0.01" value="0.2">
+          </div>
+
+          <div class="setting__wrapper">
+            <h3>DECAY</h3>
+              <input class="slider slider__effects" id="lead-decay" type="range" min="0.1" max="3" step="0.1" value="0.2">
+          </div>
+
+          <div class="setting__wrapper">
+            <h3>ECHO</h3>
+              <input class="slider slider__effects" id="lead-echo" type="range" min="0" max="1" step="0.01" value="0.1">
+          </div>
+        </div>
+
+        <div class="container settings__container">
+          <h2>ARPEGGIO</h2>
+          <div class="setting__wrapper">
+            <h3>VOLUME</h3>
+            <div class="volume__wrapper">
+              <input class="slider" id="arp-volume" type="range" min="-60" max="12" step="1" value="-6">
+              <button class="mute__button" id="arp-mute">MUTE</button>
+            </div>
+          </div>
+
+          <div class="setting__wrapper">
+            <h3>OSCILLATOR TYPE</h3>
+            <div class="toggle-buttons-set" id="arp-toggle">
+              <div class="toggle toggle--active">SINE</div>
+              <div class="toggle">TRIANGLE</div>
+              <div class="toggle">SQUARE</div>
+              <div class="toggle">SAWTOOTH</div>
+            </div>
+          </div>
+
+          <div class="setting__wrapper">
+            <h3>ATTACK</h3>
+              <input class="slider slider__effects" id="arp-attack" type="range" min="0.01" max="2" step="0.01" value="0.01">
+          </div>
+
+          <div class="setting__wrapper">
+            <h3>RELEASE</h3>
+              <input class="slider slider__effects" id="arp-release" type="range" min="0.1" max="5" step="0.1" value="2.8">
+          </div>
+
+          <div class="setting__wrapper">
+            <h3>BRIGHTNESS</h3>
+              <input class="slider slider__effects" id="arp-brightness" type="range" min="200" max="12000" step="100" value="8000">
+          </div>
+
+          <div class="setting__wrapper">
+            <h3>REVERB</h3>
+              <input class="slider slider__effects" id="arp-reverb" type="range" min="0" max="1" step="0.01" value="0.2">
+          </div>
+
+          <div class="setting__wrapper">
+            <h3>DECAY</h3>
+              <input class="slider slider__effects" id="arp-decay" type="range" min="0.01" max="3" step="0.01" value="1.8">
+          </div>
+
+          <div class="setting__wrapper">
+            <h3>ECHO</h3>
+              <input class="slider slider__effects" id="arp-echo" type="range" min="0" max="1" step="0.01" value="0.1">
+          </div>
+        </div>
+
+        <div class="samples__wrapper">
+          <div class="container settings__container">
+            <h2>BASS</h2>
+            <div class="setting__wrapper">
+              <h3>VOLUME</h3>
+              <div class="volume__wrapper">
+                <input class="slider" id="bass-volume" type="range" min="-60" max="12" step="1" value="-6">
+                <button class="mute__button" id="bass-mute">MUTE</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="container settings__container">
+            <h2>BELLS</h2>
+            <div class="setting__wrapper">
+              <h3>VOLUME</h3>
+              <div class="volume__wrapper">
+                <input class="slider" id="bells-volume" type="range" min="-60" max="12" step="1" value="-6">
+                <button class="mute__button" id="bells-mute">MUTE</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="container settings__container">
+            <h2>DRUMS</h2>
+            <div class="setting__wrapper">
+              <h3>VOLUME</h3>
+              <div class="volume__wrapper">
+                <input class="slider" id="drums-volume" type="range" min="-60" max="12" step="1" value="-6">
+                <button class="mute__button" id="drums-mute">MUTE</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="container settings__container">
+            <h2>HI-HATS</h2>
+            <div class="setting__wrapper">
+              <h3>VOLUME</h3>
+              <div class="volume__wrapper">
+                <input class="slider" id="hi-hats-volume" type="range" min="-60" max="12" step="1" value="-6">
+                <button class="mute__button" id="hi-hats-mute">MUTE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

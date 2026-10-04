@@ -1,0 +1,602 @@
+export const bassSynthSequence = [
+    // INTRO
+    {
+        time: '0:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '1:0:0',
+        noteName: 'D#3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '2:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '3:0:0',
+        noteName: 'C3',
+        duration: '2n',
+        velocity: 1
+    },
+    {
+        time: '3:2:0',
+        noteName: 'D#3',
+        duration: '2n',
+        velocity: 1
+    },
+    // VERSE
+    {
+        time: '4:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '5:0:0',
+        noteName: 'D#3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '6:0:0',
+        noteName: 'C3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '7:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '8:0:0',
+        noteName: 'F3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '9:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '10:0:0',
+        noteName: 'C3',
+        duration: '2n',
+        velocity: 1
+    },
+    {
+        time: '10:2:0',
+        noteName: 'D#3',
+        duration: '2n',
+        velocity: 1
+    },
+    {
+        time: '11:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    // CHORUS
+    {
+        time: '12:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '13:0:0',
+        noteName: 'D#3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '14:0:0',
+        noteName: 'C3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '15:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '16:0:0',
+        noteName: 'F3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '17:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '18:0:0',
+        noteName: 'C3',
+        duration: '2n',
+        velocity: 1
+    },
+    {
+        time: '18:2:0',
+        noteName: 'D#3',
+        duration: '2n',
+        velocity: 1
+    },
+    {
+        time: '19:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    // VOCALIZE
+    {
+        time: '20:0:0',
+        noteName: 'D#3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '21:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '22:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '23:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '24:0:0',
+        noteName: 'G#3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '25:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '26:0:0',
+        noteName: 'D#3',
+        duration: '1n',
+        velocity: 1
+    },
+    // VERSE
+    {
+        time: '27:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '28:0:0',
+        noteName: 'D#3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '29:0:0',
+        noteName: 'C3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '30:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '31:0:0',
+        noteName: 'F3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '32:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '33:0:0',
+        noteName: 'C3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '33:2:0',
+        noteName: 'D#3',
+        duration: '2n',
+        velocity: 1
+    },
+    {
+        time: '34:0:0',
+        noteName: 'G3',
+        duration: '2n',
+        velocity: 1
+    },
+    // CHORUS
+    {
+        time: '35:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '36:0:0',
+        noteName: 'D#3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '37:0:0',
+        noteName: 'C3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '38:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '39:0:0',
+        noteName: 'F3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '40:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '41:0:0',
+        noteName: 'C3',
+        duration: '2n',
+        velocity: 1
+    },
+    {
+        time: '41:2:0',
+        noteName: 'D#3',
+        duration: '2n',
+        velocity: 1
+    },
+    {
+        time: '42:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    // VOCALIZE
+    {
+        time: '43:0:0',
+        noteName: 'D#3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '44:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '45:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '46:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '47:0:0',
+        noteName: 'G#3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '48:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '49:0:0',
+        noteName: 'D#3',
+        duration: '1n',
+        velocity: 1
+    },
+    // CHORUS
+    {
+        time: '50:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '51:0:0',
+        noteName: 'D#3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '52:0:0',
+        noteName: 'C3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '53:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '54:0:0',
+        noteName: 'F3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '55:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '56:0:0',
+        noteName: 'C3',
+        duration: '2n',
+        velocity: 1
+    },
+    {
+        time: '56:2:0',
+        noteName: 'D#3',
+        duration: '2n',
+        velocity: 1
+    },
+    {
+        time: '57:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    // VERSE
+    {
+        time: '58:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '59:0:0',
+        noteName: 'D#3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '60:0:0',
+        noteName: 'C3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '61:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '62:0:0',
+        noteName: 'F3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '63:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '64:0:0',
+        noteName: 'C3',
+        duration: '2n',
+        velocity: 1
+    },
+    {
+        time: '64:2:0',
+        noteName: 'D#3',
+        duration: '2n',
+        velocity: 1
+    },
+    {
+        time: '65:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    // VOCALIZE
+    {
+        time: '66:0:0',
+        noteName: 'D#3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '67:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '68:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '69:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '70:0:0',
+        noteName: 'G#3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '71:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '72:0:0',
+        noteName: 'D#3',
+        duration: '1n',
+        velocity: 1
+    },
+    // VERSE
+    {
+        time: '73:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '74:0:0',
+        noteName: 'D#3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '75:0:0',
+        noteName: 'C3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '76:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '77:0:0',
+        noteName: 'F3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '78:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '79:0:0',
+        noteName: 'C3',
+        duration: '2n',
+        velocity: 1
+    },
+    {
+        time: '79:2:0',
+        noteName: 'D#3',
+        duration: '2n',
+        velocity: 1
+    },
+    {
+        time: '80:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    // CHORUS
+    {
+        time: '81:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '82:0:0',
+        noteName: 'D#3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '83:0:0',
+        noteName: 'C3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '84:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '85:0:0',
+        noteName: 'F3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '86:0:0',
+        noteName: 'D3',
+        duration: '1n',
+        velocity: 1
+    },
+    {
+        time: '87:0:0',
+        noteName: 'C3',
+        duration: '2n',
+        velocity: 1
+    },
+    {
+        time: '87:2:0',
+        noteName: 'D#3',
+        duration: '2n',
+        velocity: 1
+    },
+    {
+        time: '88:0:0',
+        noteName: 'G3',
+        duration: '1n',
+        velocity: 1
+    }
+]

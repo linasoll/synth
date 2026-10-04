@@ -1,0 +1,15 @@
+:root {
+  --c-white: #FFFFFF;
+  --c-white-opacity: rgba(255, 255, 255, 0.4);
+  --c-yellow: #FFCF55;
+  --c-dark-yellow: #685A38;
+  --c-blue: #313C77;
+  --c-blue-containers: #404C8D;
+  --c-blue-buttons: #4F5CA1;
+
+  --sh-yellow-light: 0px 0px 16px #FFCF55, inset 0px 0px 4px rgba(255, 255, 255, 0.25);
+  --sh-yellow-dark: 0px 0px 5px rgba(39, 49, 110, 0.5), inset 0px 0px 4px #483D1F;
+  --sh-blue-containers: 0px 3px 8px #27316E, inset 0px 4px 12px #4F5CA1;
+  --sh-blue-buttons: 0px 2px 4px #313C77, inset 0px 2px 4px #5F6CB6;
+  --sh-yellow-buttons: 0px 2px 4px #313C77, inset 0px 0px 4px rgba(255, 255, 255, 0.25);
+}
