@@ -7,7 +7,7 @@ body {
     background-color: var(--c-blue);
     color: var(--c-white);
     padding: 20px;
-    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    font-family: "Comfortaa", Arial, Helvetica, sans-serif;
 }
 
 .synth__container {
