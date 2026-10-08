@@ -262,5 +262,44 @@ h3 {
   width: 100%;
 }
 
+@media screen and (max-width: 1200px) {
+  .part-settings__wrapper {
+    flex-direction: column;
+  }
+
+  .lamps__container {
+    display: none;
+  }
+
+  .header__container {
+    justify-content: center;
+    align-items:  center;
+  }
+
+  .toggle-buttons-set {
+    flex-wrap: wrap;
+  }
+
+  .toggle:first-child {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .toggle {
+    border-right: none;
+    border-bottom: 1px solid var(--c-blue);
+  }
+
+  .toggle:nth-child(4) {
+    border-bottom: none;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .transport-button {
+    border-radius: 15px;
+    width: 75px;
+    height: 75px;
+  }
+}
+
 /* src/index.css */
 
